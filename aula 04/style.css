@@ -1,0 +1,11 @@
+body{
+  box-sizing: border-box;
+  background-color: rgb(159, 237, 237);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
