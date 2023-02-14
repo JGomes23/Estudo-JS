@@ -22,6 +22,15 @@ console.log(n1 % n2) // resto ou modulo
 4: +  -
 */
 
+/*Auto atribuições*/
+var n = 5
+n = n + 4 // Está sendo acrescentado valor a variavel n, sendo alterado o seu valor para 9.
+n = n - 2 // Está sendo retirado valor da variavel n, sendo alterado o seu valor 7.
+n = n * 2 // Está sendo acrescentado valor a variavel n através da multiplicação, sendo alterado o seu valor para 14.
+n = n / 4 // Está sendo dividido o valor da variavel n, sendo alterado o seu valor para 3.5.
+
+/* Operações Aritmeticas Simplificadas */
+
 /* Operadores de Comparação */
 console.log(n2 == n3) //igual a
 console.log(n2 === n3) // identico a
