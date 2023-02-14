@@ -20,6 +20,7 @@ console.log(n2 == n3) //igual a
 console.log(n2 === n3) // identico a
 console.log(n2 != n3) // diferente de Nao=
 console.log(n2 !== n3) // Nao e identico
+
 console.log(n1 > n2) // Se o valor de n1 é maior que o valor de n2
 console.log(n1 < n2) // se o valor de n2 é maior que o valor de n1
 console.log(n1 >= n2) // se o valor de n1 é maior ou igual ao valor de n2
