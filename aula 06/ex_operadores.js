@@ -75,7 +75,7 @@ console.log(!b) //caso o elemento for falso o retorno do sistema sera verdaeiro
 /* Operador Ternario */
 var media = 5.5
 // teste ? true :false
-media > 7.0 ? 'Aprovado' : 'Reprovado'
+var resultado = media > 7.0 ? 'Aprovado' : 'Reprovado'
 // É um teste logico que mostra o resultado da operação caso ele seja verdadeiro ou falso.
 var idade = 19
-idade >= 18 ? ' Maior' : 'Menor'
+var maioridade = idade >= 18 ? ' Maior' : 'Menor'
