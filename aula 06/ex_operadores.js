@@ -28,8 +28,17 @@ n = n + 4 // Está sendo acrescentado valor a variavel n, sendo alterado o seu v
 n = n - 2 // Está sendo retirado valor da variavel n, sendo alterado o seu valor 7.
 n = n * 2 // Está sendo acrescentado valor a variavel n através da multiplicação, sendo alterado o seu valor para 14.
 n = n / 4 // Está sendo dividido o valor da variavel n, sendo alterado o seu valor para 3.5.
+n = n ** 2 // Esta sendo elevado a potenciação, alterando seu valor para 12.25.
+n = n % 2 // Resto da divisão, sendo alterado seu valor para 0.25
 
-/* Operações Aritmeticas Simplificadas */
+/*Auto atribuições Simplificadas*/
+var num = 2
+num += 4 // += pode ser usado para simplificar a auto atribuição de soma, porém, apenas se for para a propria variavel.
+num -= 4 // -= pode ser usado para simplificar a auto atribuição de subtração, porém, apenas se for para a propria variavel.
+num *= 4 // *= pode ser usado para simplificar a auto atribuição de multiplicação, porém, apenas se for para a propria variavel.
+num /= 4 // /= pode ser usado para simplificar a auto atribuição de divisão, porém, apenas se for para a propria variavel.
+num **= 4 // **= pode ser usado para simplificar a auto atribuição de potenciação, porém, apenas se for para a propria variavel.
+num %= 4 // %= pode ser usado para simplificar a auto atribuição de resto/modulo de divisão, porém, apenas se for para a propria variavel.
 
 /* Operadores de Comparação */
 console.log(n2 == n3) //igual a
