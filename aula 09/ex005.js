@@ -6,3 +6,21 @@ p1.style.color = 'black'
 // foi usado .style.color para mudar a cor do elemento selecionado da variavel p1.
 document.write(`Está escrito assim: ${p1.innerHTML}`)
 //O innerHTML é uma propriedade do Element que define ou retorna o conteúdo HTML de um elemento. O innerHTML pega a parte do codigo HTML selecionado ja com a formatação.
+
+var d = window.document.getElementById('msg')
+
+d.style.color = 'yellow'
+
+var pao = window.document.querySelector('div.sla')
+
+pao.style.color = 'purple'
+
+/* Metodos para seleção dentro do seu Documento HTML. 
+
+marca:document.getElementsByTagName
+id: document.getElementById()
+class: document.getElementsByClassName()
+name: document.getElementsByName()
+seletor: document.querySelector() e querySelectorAll()
+
+*/
