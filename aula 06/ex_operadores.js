@@ -45,10 +45,10 @@ num /= 4 // /= pode ser usado para simplificar a auto atribuição de divisão, 
 num **= 4 // **= pode ser usado para simplificar a auto atribuição de potenciação, porém, apenas se for para a propria variavel.
 num %= 4 // %= pode ser usado para simplificar a auto atribuição de resto/modulo de divisão, porém, apenas se for para a propria variavel.
 
-/* Operadores de Comparação */
+/* Operadores relacionais*/
 console.log(n2 == n3) //igual a
 console.log(n2 === n3) // identico a
-console.log(n2 != n3) // diferente de Nao=
+console.log(n2 != n3) //  Não igual
 console.log(n2 !== n3) // Nao e identico
 
 console.log(n1 > n2) // Se o valor de n1 é maior que o valor de n2
@@ -56,10 +56,26 @@ console.log(n1 < n2) // se o valor de n2 é maior que o valor de n1
 console.log(n1 >= n2) // se o valor de n1 é maior ou igual ao valor de n2
 console.log(n1 <= n2) // se o valor de n2 é maior ou igual ao valor de n1
 
-/*Operadores Logicos e Relacionais  */
+/*Operadores Logicos   */
 let a = true
 let b = false
-console.log(a && b) // E AND // Ao usar o && estamosperguntando se os dois são verdadeiros.
+console.log(a && b) // E AND // Ao usar o && estamos perguntando se os dois são verdadeiros.
 console.log(a || b) // OU OR //  Ao usar o || estamos perguntando se um ou outro elemento é verdadeiro.
 console.log(!a) // NAO NOT negação // é usado para caso o elemento for verdadeiro o retorno do sistema sera falso
-console.log(!b) //caso o elemento for falss o retorno do sistema sera verdaeiro
+console.log(!b) //caso o elemento for falso o retorno do sistema sera verdaeiro
+
+/* Precedencia Expressão
+1: () ** /
+2: >  <   >=
+3: !
+4: &&
+5: ||
+*/
+
+/* Operador Ternario */
+var media = 5.5
+// teste ? true :false
+media > 7.0 ? 'Aprovado' : 'Reprovado'
+// É um teste logico que mostra o resultado da operação caso ele seja verdadeiro ou falso.
+var idade = 19
+idade >= 18 ? ' Maior' : 'Menor'
