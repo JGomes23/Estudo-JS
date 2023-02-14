@@ -31,6 +31,11 @@ n = n / 4 // Está sendo dividido o valor da variavel n, sendo alterado o seu va
 n = n ** 2 // Esta sendo elevado a potenciação, alterando seu valor para 12.25.
 n = n % 2 // Resto da divisão, sendo alterado seu valor para 0.25
 
+/* Incremento */
+var x = 10
+x++ // forma ultra simplificada de realizar a soma de um elemento dentro de uma variavel
+x-- // forma ultra simplificada de realizar a subtração de um elemento dentro de uma variavel
+
 /*Auto atribuições Simplificadas*/
 var num = 2
 num += 4 // += pode ser usado para simplificar a auto atribuição de soma, porém, apenas se for para a propria variavel.
