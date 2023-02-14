@@ -15,6 +15,13 @@ console.log(n1 * n2) // mmltiplicação
 console.log(n1 / n2) // divisão
 console.log(n1 % n2) // resto ou modulo
 
+/*Operadores aritmeticos possuem uma ordem de precedencia a serem resolvidos, sendo ela:
+1: ()
+2: **
+3: *  /   %
+4: +  -
+*/
+
 /* Operadores de Comparação */
 console.log(n2 == n3) //igual a
 console.log(n2 === n3) // identico a
