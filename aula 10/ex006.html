@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      body {
+        background-color: rgb(122, 181, 233);
+      }
       #area {
         font-family: arial;
         font-size: 20pt;
@@ -16,7 +19,19 @@
     </style>
   </head>
   <body>
-    <div id="area" onclick="clicar()">Interaja...</div>
+    <div
+      id="area"
+      onclick="clicar()"
+      onmouseenter="entrar()"
+      onmouseout="sair()"
+    >
+      Interaja...
+    </div>
+    <!-- 
+    onclick="()"       - O evento onclick executa determinada funcionalidade quando um botão é clicado.
+    onmouseenter=()    - O evento onmousemove ocorre sempre que o ponteiro do mouse se movimentar dentro de um elemento div.
+    onmouseout="()"    - O evento onmouseout ocorre sempre que o ponteiro do mouse sair de  dentro de um elemento div.
+    -->
     <script src="ex006.js"></script>
   </body>
 </html>
