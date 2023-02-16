@@ -8,3 +8,6 @@ if (vel > 40) {
   console.log('Dirija sempre usando cinto de segurança.')
   //Se for falsa, executa as afirmações dentro de else.
 }
+
+//Condição simples possui apenas se (if)
+// Condição composta possui se e não ( if  else )
