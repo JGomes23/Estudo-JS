@@ -1,4 +1,7 @@
-var horas = 22
+var agora = new Date()
+
+var horas = agora.getHours()
+// .getHours() retorna o valor das horas atual no sistema;
 console.log(`Olá, agora são ${horas} horas.`)
 if (horas < 12) {
   console.log(`Bom dia.`)
