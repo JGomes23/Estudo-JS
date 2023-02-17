@@ -36,6 +36,8 @@ switch (diaSem) {
   case 6:
     console.log('Sabado')
     break
+  default:
+    console.log('[ERROR] Dia Invalido')
 }
 
 //A condicional switch avalia uma expressão, combinando o valor da expressão para um cláusula case, e executa as instruções associadas ao case.
